@@ -36,7 +36,7 @@ public class medirunner extends medibase {
   }
   @BeforeClass
   public void beforeClass() {
-	  browserlaunch("firefox");
+	  browserlaunch("chrome");
 	  s=new medimain(d);
   }
 

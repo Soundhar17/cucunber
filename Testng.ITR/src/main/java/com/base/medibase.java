@@ -13,7 +13,7 @@ public class medibase {
 
 	public static void browserlaunch(String name) {
 		if (name.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\chrom c\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","D:\\chromedriver\\chromedriver.exe");
 			d=new ChromeDriver();
 			d.get("https://demo.smart-hospital.in/site/login");
 			
